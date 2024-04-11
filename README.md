@@ -57,6 +57,11 @@ OpenAI GPT API 的调用，并将在后续持续扩充对各类模型及模型 A
 ```shell
 #首先
 #初始化配置
+#安装conda
+#切换环境
+#安装python3.11
+#升级pip pip install --upgrade pip
+
 $ chmod +x init_for_ali_api.sh
 $ bash ./init_for_ali_api.sh
 ```
