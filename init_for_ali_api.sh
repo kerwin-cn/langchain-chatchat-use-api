@@ -3,7 +3,7 @@
 #安装依赖
 
 echo "安装依赖。。。"
-pip install -r requirements.txt
+pip install --use-pep517 -r requirements.txt
 echo "安装依赖。。。。。。"
 pip install -r requirements_api.txt
 echo "安装依赖。。。。。。。。。"
