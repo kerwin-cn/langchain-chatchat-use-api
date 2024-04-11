@@ -11,5 +11,5 @@ pip install -r requirements_webui.txt
 
 #配置和初始化
 
-# echo "初始化中。。。"
+echo "初始化中。。。"
 python copy_config_example.py && python init_database.py --recreate-vs
